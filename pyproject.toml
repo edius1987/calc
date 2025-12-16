@@ -1,7 +1,9 @@
 [project]
 name = "calc"
 version = "0.1.0"
-description = "Add your description here"
+autor = "Edius Ferreira"
+email = "ediusferreira@gmail.com"
+description = "Calcauladora do bacen e de renda fixa"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
