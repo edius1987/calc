@@ -33,7 +33,7 @@ Este simulador replica todas as funcionalidades da [Calculadora do Cidadão do B
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Python 3.8+**: Linguagem de programação
+- **Python 3.13**: Linguagem de programação
 - **Flet**: Framework para criar aplicações multi-plataforma
 - **Matemática Financeira**: Implementação do Sistema Price (Francês)
 
@@ -41,36 +41,33 @@ Este simulador replica todas as funcionalidades da [Calculadora do Cidadão do B
 
 ### Pré-requisitos
 
-- Python 3.8 ou superior instalado
-- pip (gerenciador de pacotes do Python)
+- Python 3.13 ou superior instalado
+- UV (gerenciador de pacotes do Python)
 
 ### Passo a passo
 
 1. **Clone o repositório**
 ```bash
-git clone https://github.com/seu-usuario/simulador-financiamento.git
+git clone https://github.com/edius1987/calc.git
 cd simulador-financiamento
 ```
 
-2. **Crie um ambiente virtual (opcional, mas recomendado)**
+2. **Criar um projeto novo**
 ```bash
-python -m venv venv
-
-# Windows
-venv\Scripts\activate
-
-# Linux/Mac
-source venv/bin/activate
+uv-sync
 ```
 
 3. **Instale as dependências**
 ```bash
-pip install flet
+uv add flet flet-desktop flet-cli flet-web
 ```
 
 4. **Execute o programa**
 ```bash
-python simulador_financiamento.py
+uv run flet simulador_financiamento.py # para aplicativo desktop
+
+uv run flet -w simulador_financiamento.py # para aplicativo web
+
 ```
 
 ## 🚀 Como Usar
