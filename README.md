@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Calculadora Científica GTK4
 
 **Projeto:** calc
@@ -58,4 +57,3 @@ MIT License
 =======
 # calc
 Calculadora moderna com GTK4 usando UV como gerenciador de projetos.
->>>>>>> origin/main
