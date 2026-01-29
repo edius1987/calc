@@ -1,0 +1,10 @@
+[project]
+name = "calc"
+version = "0.1.0"
+description = "calculadora moderna com GTK4 usando UV como gerenciador de projetos. Testado e desenvolvido no Ubuntu 24.04"
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["pillow>=12.1.0", "pygobject>=3.54.5", "reportlab>=4.4.9"]
+[project.scripts]
+calc = "main:main"
