@@ -50,10 +50,10 @@ MIT License
 
 ---
 
-**Autor:** Edius Ferreira
-**Email:** edisuferreira@gmail.com
-**GitHub:** https://github.com/edius1987
-**Repositório do Projeto:** https://github.com/edius1987/calc.git
+**Autor** Edius Ferreira
+**Email** edisuferreira@gmail.com
+**GitHub** https://github.com/edius1987
+*Repositório do Projeto* https://github.com/edius1987/calc.git
 =======
 # calc
 Calculadora moderna com GTK4 usando UV como gerenciador de projetos.
